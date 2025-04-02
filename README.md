@@ -9,9 +9,9 @@
 
 🛠️ Installation  
 ```bash
-git clone https://github.com/tonpseudo/ton-projet.git](https://github.com/Wlm94/xml-editor-football)
+git clone https://github.com/Wlm94/xml-editor-football
 cd ton-projet
-ouvrir index.html  # Pas besoin de serveur si c'est du front pur
+ouvrir index.html  
 ```
 
 🌐 Démo en ligne  
