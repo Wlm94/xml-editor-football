@@ -15,7 +15,7 @@ ouvrir index.html  # Pas besoin de serveur si c'est du front pur
 ```
 
 🌐 Démo en ligne  
-👉 [Lien GitHub Pages](https://tonpseudo.github.io/ton-projet/)  
+👉 [Lien GitHub Pages](https://Wlm94.github.io/xml-editor-football/)  
 
 📷 Capture d'écran  
 ![Preview](assets/preview.png)  
