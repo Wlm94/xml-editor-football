@@ -1,0 +1,157 @@
+/*Corps de la page*/
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("assets/css/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+/*Titre*/
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 65px;
+    margin-bottom: -20px;
+}
+
+/*Conteneur de la barre de recherche*/
+.conteneur_recherche {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Barre de recherche (From Uiverse.io by Yaseen549)*/
+.barre_recherche {
+    border: 2px solid #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #212121;
+    color: #ffffff;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.barre_recherche:focus {
+    outline-color: white;
+    background-color: #212121;
+    color: #e8e8e8;
+    box-shadow: 0px 5px #888888;
+}
+
+.barre_recherche::placeholder {
+    color: #fff;
+}
+
+/*Boutons (From Uiverse.io by Web-Potato)*/
+button,
+#bouton_sauvegarde {
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button span,
+#bouton_sauvegarde span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+
+button span:hover,
+#bouton_sauvegarde span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+}
+
+button span:not(hover),
+#bouton_sauvegarde span:not(hover) {
+    transition: all 1s;
+}
+
+#bouton_sauvegarde {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Conteneur du fichier XML avec une zone défilante*/
+.fichier_xml_container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f8f8f8;
+    height: 300px;
+    overflow-y: auto;
+    font-family: monospace, monospace;
+}
+
+/*Mise en page du XML dans la zone défilante*/
+.fichier_xml {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.xml-text {
+    display: inline-block;
+    padding: 2px;
+}
+
+.xml-edit {
+    border: none;
+    border-radius: 2px;
+}
+
+.xml-edit:hover {
+    background-color: rgb(132, 230, 255);
+}
+
+.xml-edit:focus {
+    outline: none;
+    background-color: rgb(250, 213, 3);
+}
+
+.search-results {
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    max-height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color: #212121;
+    color: #e8e8e8;
+    font-weight: bold;
+}
+
+.result-item {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
